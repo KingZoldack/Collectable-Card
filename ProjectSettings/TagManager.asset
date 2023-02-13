@@ -11,10 +11,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Base
+  - Frame
+  - Description
+  - Text
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Base
+    uniqueID: 2397766679
+    locked: 0
+  - name: Frame
+    uniqueID: 3577781151
+    locked: 0
+  - name: Description
+    uniqueID: 3851810587
+    locked: 0
+  - name: Text
+    uniqueID: 1628667841
     locked: 0
