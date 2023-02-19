@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -207,6 +208,93 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+--- !u!1 &983128079 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6947060398037586490, guid: 4e071c0e8f660cc40beb31c8d020f440, type: 3}
+  m_PrefabInstance: {fileID: 6947060397890408692}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &983128083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983128079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd579544b312948409677fab62631a7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _commonTextues: []
+  _rareTextues: []
+  _legendaryTextues:
+  - {fileID: 2800000, guid: bf05be5b6245b454bb760afdddd4eb23, type: 3}
+  - {fileID: 2800000, guid: bb17dadea46a17a49b9f8c6100bbcf0a, type: 3}
+  - {fileID: 2800000, guid: 0953b5b0953eef14a82423aaf2e9c861, type: 3}
+  _legendaryMasks:
+  - {fileID: 2800000, guid: 104b591c2f8a4fe4288080ce661c7de5, type: 3}
+  - {fileID: 2800000, guid: 61ef13dfc97769146b9d3a9a62dee9dd, type: 3}
+  - {fileID: 2800000, guid: 4c5c2731e828e104db148f0a57ee3b97, type: 3}
+--- !u!1 &1149036314 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8769069624566239277, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
+  m_PrefabInstance: {fileID: 8769069624302441169}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1149036318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149036314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd579544b312948409677fab62631a7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _commonTextues: []
+  _rareTextues:
+  - {fileID: 2800000, guid: 5f6909a270e11a245a4762759268bfde, type: 3}
+  - {fileID: 2800000, guid: 25b34b628f2d72848966349f2fb742e8, type: 3}
+  - {fileID: 2800000, guid: eb37e6a92732ad341ab1e8bb1f86b7ae, type: 3}
+  - {fileID: 2800000, guid: 1f462a778e437c246881c804b0478a4c, type: 3}
+  - {fileID: 2800000, guid: f551ae9fdba263742874e080750a28df, type: 3}
+  - {fileID: 2800000, guid: 63abfd0a1a21b534badaee609a282115, type: 3}
+  _legendaryTextues: []
+  _legendaryMasks: []
 --- !u!1 &1380152970
 GameObject:
   m_ObjectHideFlags: 0
@@ -275,6 +363,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1588000697 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1208610167292850099, guid: 7f9cb7c2331c38347b9fd3721a2f72af, type: 3}
+  m_PrefabInstance: {fileID: 2018933535713893635}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1588000701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588000697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd579544b312948409677fab62631a7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _commonTextues:
+  - {fileID: 2800000, guid: 89b3b3bd52b3b034791c2ab198df97b6, type: 3}
+  - {fileID: 2800000, guid: c6a9fda593d339b4db8e730392350122, type: 3}
+  - {fileID: 2800000, guid: b0359f3711654034793a56103795a7c2, type: 3}
+  - {fileID: 2800000, guid: 3a2a9d5100c81ac43a90a9a8ec7f1d9d, type: 3}
+  - {fileID: 2800000, guid: 7e245cc73f74d084e98bf32a85627c6f, type: 3}
+  - {fileID: 2800000, guid: d8bc5ab83159f55449372ba5d49ac6e8, type: 3}
+  - {fileID: 2800000, guid: 32c9b5350fdfe3443add5a60a72f8c7e, type: 3}
+  - {fileID: 2800000, guid: 55a0c4fd68002ad4ca2fec20400ef185, type: 3}
+  - {fileID: 2800000, guid: 31cbdfdb11a989949901c2d2086667a2, type: 3}
+  - {fileID: 2800000, guid: 73f8755f5d204294f98b57116b1531e1, type: 3}
+  - {fileID: 2800000, guid: e769b8a357df232479a4adcdbd6d862c, type: 3}
+  _rareTextues: []
+  _legendaryTextues: []
+  _legendaryMasks: []
 --- !u!21 &1811085176
 Material:
   serializedVersion: 8
@@ -538,7 +658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dafdcc33ddf83ad4caa255841340f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cardNames:
+  commonCardNames:
   - American Shorthair
   - British Shorthair
   - Exotic Shorthair
@@ -550,6 +670,17 @@ MonoBehaviour:
   - Scottish Fold
   - Siamese
   - Siberian
+  rareCardNames:
+  - American Wirehair
+  - Iberian Lynx
+  - Kodkod
+  - "Pallas\u2019 Cat"
+  - Persian Sand Cat
+  - Sphinx
+  legendaryCardNames:
+  - Jaguar
+  - Lion
+  - Tiger
 --- !u!4 &1905364420
 Transform:
   m_ObjectHideFlags: 0
@@ -572,6 +703,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1208610167292850099, guid: 7f9cb7c2331c38347b9fd3721a2f72af, type: 3}
+      propertyPath: m_Name
+      value: common_feline_back
+      objectReference: {fileID: 0}
     - target: {fileID: 2018933535931051162, guid: 7f9cb7c2331c38347b9fd3721a2f72af, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -633,10 +768,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Legendary Card
       objectReference: {fileID: 0}
-    - target: {fileID: 6947060396956934147, guid: 4e071c0e8f660cc40beb31c8d020f440, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6947060396956934156, guid: 4e071c0e8f660cc40beb31c8d020f440, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -680,6 +811,10 @@ PrefabInstance:
     - target: {fileID: 6947060396956934156, guid: 4e071c0e8f660cc40beb31c8d020f440, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6947060398037586490, guid: 4e071c0e8f660cc40beb31c8d020f440, type: 3}
+      propertyPath: m_Name
+      value: legendary_feline_back
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e071c0e8f660cc40beb31c8d020f440, type: 3}
@@ -742,13 +877,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rare Card
       objectReference: {fileID: 0}
-    - target: {fileID: 8769069623804296259, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8769069624022886859, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 1811085176}
+    - target: {fileID: 8769069624566239277, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
+      propertyPath: m_Name
+      value: rare_feline_back
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}

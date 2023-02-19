@@ -14,6 +14,8 @@ public class Card : MonoBehaviour
     [SerializeField]
     TextMeshPro _descriptionBoxText;
 
+    public int CardSlot { get { return _cardSlot; } set { _cardSlot = value; } }
+
     private void Awake()
     {
         _cardInfo = GameObject.FindObjectOfType<CardInfo>();
@@ -33,6 +35,13 @@ public class Card : MonoBehaviour
 
     private void SetName()
     {
-        _descriptionBoxText.text = _cardInfo._cardNames[_cardSlot];
+        if (this.gameObject.tag == "Common")
+        _descriptionBoxText.text = _cardInfo.commonCardNames[_cardSlot];
+
+        if (this.gameObject.tag == "Rare")
+            _descriptionBoxText.text = _cardInfo.rareCardNames[_cardSlot];
+
+        if (this.gameObject.tag == "Legendary")
+            _descriptionBoxText.text = _cardInfo.legendaryCardNames[_cardSlot];
     }
 }
