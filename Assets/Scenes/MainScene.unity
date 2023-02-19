@@ -509,6 +509,62 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShineColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+--- !u!1 &1905364418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1905364420}
+  - component: {fileID: 1905364419}
+  m_Layer: 0
+  m_Name: CardInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1905364419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905364418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dafdcc33ddf83ad4caa255841340f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cardNames:
+  - American Shorthair
+  - British Shorthair
+  - Exotic Shorthair
+  - Bengal
+  - Bombay
+  - Burmese
+  - Chartreux
+  - Persian
+  - Scottish Fold
+  - Siamese
+  - Siberian
+--- !u!4 &1905364420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905364418}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2018933535713893635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -577,6 +633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Legendary Card
       objectReference: {fileID: 0}
+    - target: {fileID: 6947060396956934147, guid: 4e071c0e8f660cc40beb31c8d020f440, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6947060396956934156, guid: 4e071c0e8f660cc40beb31c8d020f440, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -630,82 +690,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2636864332898549711, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_SortingLayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2636864332898549711, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -1897200617
-      objectReference: {fileID: 0}
-    - target: {fileID: 2762059708042716907, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 2762059708042716907, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 2762059708042716907, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.015
-      objectReference: {fileID: 0}
     - target: {fileID: 8769069623546806358, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 1811085176}
-    - target: {fileID: 8769069623668508900, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_fontColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769069623668508900, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4279898367
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769069623668508900, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_enableVertexGradient
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769069623668508900, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_fontColorGradient.topLeft.b
-      value: 0.10196079
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769069623668508900, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_fontColorGradient.topLeft.g
-      value: 0.0627451
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769069623668508900, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_fontColorGradient.topRight.b
-      value: 0.10196079
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769069623668508900, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_fontColorGradient.topRight.g
-      value: 0.0627451
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769069623668508900, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_fontColorGradient.bottomLeft.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769069623668508900, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_fontColorGradient.bottomLeft.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769069623668508900, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_fontColorGradient.bottomLeft.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769069623668508900, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_fontColorGradient.bottomRight.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769069623668508900, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_fontColorGradient.bottomRight.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8769069623668508900, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_fontColorGradient.bottomRight.r
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8769069623804296258, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -754,13 +742,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rare Card
       objectReference: {fileID: 0}
+    - target: {fileID: 8769069623804296259, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8769069624022886859, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 1811085176}
-    - target: {fileID: 8769069624566239279, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
-      propertyPath: m_Materials.Array.size
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b384c2c5260d42340ae54492fc09ef55, type: 3}
