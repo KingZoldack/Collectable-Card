@@ -14,6 +14,8 @@ public class Card : MonoBehaviour
     [SerializeField]
     TextMeshPro _descriptionBoxText;
 
+
+
     public int CardSlot { get { return _cardSlot; } set { _cardSlot = value; } }
 
     private void Awake()
@@ -25,6 +27,8 @@ public class Card : MonoBehaviour
     void Start()
     {
         SetName();
+
+        
     }
 
     // Update is called once per frame
